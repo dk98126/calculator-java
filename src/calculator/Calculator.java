@@ -1,3 +1,5 @@
+package calculator;
+
 public class Calculator {
   public int calculate(int a, Operation operation, int b) {
     return switch (operation) {
