@@ -21,4 +21,9 @@ public enum Operation {
     }
     throw new IllegalArgumentException();
   }
+
+  @Override
+  public String toString() {
+    return str;
+  }
 }
